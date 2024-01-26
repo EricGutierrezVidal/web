@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Eric Gutierrez - Portafoli</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Eric Gutierrez</h1>
+            <p>Desarrollador Web</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <p>Breu descripcio.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projectes</h2>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Habilitat</h2>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contacte</h2>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024</p>
+        </div>
+    </footer>
+
+</body>
+</html>
